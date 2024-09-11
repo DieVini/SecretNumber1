@@ -9,7 +9,7 @@ while(guess != secret_number){
     if(guess <= 100 & guess > 0){
         if (secret_number == guess){
             let word_attempts = trys > 1 ? 'attempts': 'attempt';
-            alert(`you guessed right, congratulations!!!, you win in ${trys} ${word_attempts}`);
+            alert(`you guessed right, congratulations!!!, you won with ${trys} ${word_attempts}`);
         }
         else{ //dica do numero secreto
             if(guess < secret_number){
